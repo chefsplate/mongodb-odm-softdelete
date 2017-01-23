@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/mongodb-odm-softdelete",
+    "name": "chefsplate/mongodb-odm-softdelete",
     "type": "library",
     "description": "Doctrine MongoDB MongoDB SoftDelete Library",
     "keywords": ["softdelete", "persistence", "mongodb"],
@@ -13,7 +13,6 @@
         "doctrine/mongodb-odm": "*"
     },
     "autoload": {
-        "psr-0": { "Doctrine\\ODM\\MongoDB\\SoftDelete": "lib/" }
-    },
-    "minimum-stability": "dev"
+        "psr-4": { "Doctrine\\ODM\\MongoDB\\SoftDelete": "lib/" }
+    }
 }
